@@ -1,0 +1,5 @@
+{
+  "_comment": "here username will come as Parameter",
+  "welcome_Message": "{{userName}} యొక్క APPకి స్వాగతం",
+  "Heloo": "Namaskaram"
+}

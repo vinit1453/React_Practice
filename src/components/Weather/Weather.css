@@ -1,0 +1,36 @@
+.weatherapp {
+  .card {
+    background-color: rgba(0, 0, 0, 0.74);
+    align-items: center;
+  }
+  .card-body {
+    width: 75%;
+    padding: 1rem;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    background-color: rgba(116, 116, 116, 0.074);
+    border: 1px solid rgba(255, 255, 255, 0.222);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border-radius: 0.7rem;
+    color: #fff;
+
+    font-weight: bold;
+  }
+
+  .image img {
+    width: 100px;
+    object-fit: cover;
+  }
+  @media screen and (max-width: 450px) {
+    .navbar-brand {
+      overflow: hidden;
+    }
+    .two {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin-top: 10px;
+    }
+  }
+}

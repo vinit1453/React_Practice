@@ -1,0 +1,74 @@
+.card1 > * {
+  /* box-sizing: border-box; */
+}
+
+/* body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+} */
+
+.card1 .card {
+  --blur: 50%;
+  --size: clamp(100%, 100%, 100%);
+  width: var(--size);
+  aspect-ratio: 4 / 3;
+  position: relative;
+  /* border-radius: 2rem; */
+  overflow: hidden;
+  color: #000;
+  transform: translateZ(0);
+}
+
+.card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card__footer {
+  padding: 0 1.5rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: red;
+  display: grid;
+  grid-template-row: auto auto;
+  gap: 0.5ch;
+  background: hsl(0 0% 100% / 0.5);
+  backdrop-filter: blur(var(--blur));
+  height: 30%;
+  align-content: center;
+}
+
+.card__action {
+  position: absolute;
+  aspect-ratio: 1;
+  width: 20%;
+  bottom: 15%;
+  right: 5%;
+  /* transform: translateY(50%) translateY(20%) translateY(10%); */
+  /* transform: translateY(50%) translateY(calc((var(--size) * 0.4)))
+    translateY(calc(var(--hover, 0) * (var(--size) * -0.4))); */
+  background: purple;
+  display: grid;
+  place-items: center;
+  border-radius: 0.5rem;
+  background: hsl(0 0% 100% / 0.5);
+  /*   backdrop-filter: blur(calc(var(--blur) * 0.5)); */
+  /* transition: transform 0.2s; */
+}
+
+.card__action svg {
+  aspect-ratio: 1;
+  width: 30%;
+}
+
+.card__footer span {
+  font-size: 10px;
+}
+
+.card:is(:hover, :focus-visible) {
+  --hover: 1;
+}

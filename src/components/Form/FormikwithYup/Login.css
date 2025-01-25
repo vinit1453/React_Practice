@@ -1,0 +1,116 @@
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Jost", sans-serif;
+}
+.main {
+  width: 30%;
+  background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+  height: 450px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 5px 20px 50px #000;
+}
+#chk {
+  display: none;
+}
+.signup {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.signup dl {
+  text-align: center;
+}
+.body label {
+  color: #fff;
+  font-size: 2.3em;
+  justify-content: center;
+  display: flex;
+  margin: 50px 0;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.input {
+  width: 60%;
+  height: 20px;
+  background: #e0dede;
+  justify-content: center;
+  display: flex;
+  margin: 0px auto;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  gap: 4px;
+  margin: -10px auto;
+}
+.buttons button {
+  width: 60%;
+  height: 40px;
+  margin: 10px auto;
+  justify-content: center;
+  display: block;
+  color: #fff;
+  background: #573b8a;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+.body button:hover {
+  background: #6d44b8;
+}
+.login dl {
+  text-align: center;
+}
+.login {
+  height: 90%;
+  background: #eee;
+  border-radius: 60% / 10%;
+  transform: translateY(-180px);
+  transition: 0.8s ease-in-out;
+}
+.login label {
+  color: #573b8a;
+  transform: scale(0.6);
+}
+
+#chk:checked ~ .login {
+  transform: translateY(-450px);
+}
+#chk:checked ~ .login label {
+  transform: scale(1);
+}
+#chk:checked ~ .signup label {
+  transform: scale(0.6);
+}
+
+.passField {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.passField #icon1 {
+  cursor: pointer;
+  position: absolute;
+  right: 20%;
+}
+.text-danger {
+  height: 15px;
+}
+@media screen and (max-width: 950px) {
+  .main {
+    width: 60%;
+  }
+}

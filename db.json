@@ -1,0 +1,370 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "vinit",
+      "role": "user",
+      "doj": "11-05-2023",
+      "password": "Vinit@123",
+      "mail": "Vinit@123",
+      "status": 1
+    },
+    {
+      "id": 2,
+      "name": "dummy",
+      "role": "admin",
+      "doj": "10-05-2023",
+      "password": "Vinit@123",
+      "mail": "Vinit@1234",
+      "status": 0
+    },
+    {
+      "id": 3,
+      "name": "prakash",
+      "role": "user",
+      "doj": "12-05-2023",
+      "password": "pk@123",
+      "mail": "p@k",
+      "status": 1
+    },
+    {
+      "id": 4,
+      "name": "Sachin1",
+      "role": "user",
+      "doj": "2023-05-18T08:38:43.018Z",
+      "password": "sachin1",
+      "mail": "Sachin1@gmail.com",
+      "status": 1
+    },
+    {
+      "id": 5,
+      "name": "Vinni",
+      "role": "user",
+      "doj": "2023-05-18T08:49:39.280Z",
+      "password": "vi@123",
+      "mail": "vi@gmail",
+      "status": 1
+    },
+    {
+      "id": 6,
+      "name": "sinyfowony",
+      "role": "user",
+      "doj": "2023-09-04T10:26:31.650Z",
+      "password": "Password",
+      "mail": "vypyr@mailinator.com",
+      "status": 1
+    },
+    {
+      "id": 7,
+      "name": "Test",
+      "role": "user",
+      "doj": "2023-09-06T05:53:15.123Z",
+      "password": "test1",
+      "mail": "test1@g.c",
+      "status": 1
+    },
+    {
+      "id": 8,
+      "name": "Pr",
+      "role": "user",
+      "doj": "2023-09-11T12:46:25.933Z",
+      "password": "Pr123",
+      "mail": "Pr@123.g",
+      "status": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "folders": [
+    {
+      "uniqueId": "1",
+      "albumId": "101",
+      "albumName": "Holiday Pics",
+      "photoUrl": "http://example.com/photo1.jpg"
+    },
+    {
+      "uniqueId": "2",
+      "albumId": "101",
+      "albumName": "Holiday Pics",
+      "photoUrl": "http://example.com/photo2.jpg"
+    },
+    {
+      "uniqueId": "3",
+      "albumId": "102",
+      "albumName": "Family Album",
+      "photoUrl": "http://example.com/photo3.jpg"
+    },
+    {
+      "uniqueId": "4",
+      "albumId": "102",
+      "albumName": "Family Album",
+      "photoUrl": "http://example.com/photo4.jpg"
+    },
+    {
+      "uniqueId": "5",
+      "albumId": "103",
+      "albumName": "Nature Shots",
+      "photoUrl": "http://example.com/photo5.jpg"
+    },
+    {
+      "uniqueId": "6",
+      "albumId": "103",
+      "albumName": "Nature Shots",
+      "photoUrl": "http://example.com/photo6.jpg"
+    },
+    {
+      "uniqueId": "7",
+      "albumId": "103",
+      "albumName": "Nature Shots",
+      "photoUrl": "http://example.com/photo7.jpg"
+    },
+    {
+      "uniqueId": "8",
+      "albumId": "103",
+      "albumName": "Nature Shots",
+      "photoUrl": "http://example.com/photo8.jpg"
+    },
+    {
+      "uniqueId": "9",
+      "albumId": "105",
+      "albumName": "Wildlife",
+      "photoUrl": "http://example.com/photo9.jpg"
+    },
+    {
+      "uniqueId": "10",
+      "albumId": "105",
+      "albumName": "Wildlife",
+      "photoUrl": "http://example.com/photo10.jpg"
+    },
+    {
+      "uniqueId": "11",
+      "albumId": "106",
+      "albumName": "Travel Diaries",
+      "photoUrl": "http://example.com/photo11.jpg"
+    },
+    {
+      "uniqueId": "12",
+      "albumId": "106",
+      "albumName": "Travel Diaries",
+      "photoUrl": "http://example.com/photo12.jpg"
+    },
+    {
+      "uniqueId": "13",
+      "albumId": "107",
+      "albumName": "Food Adventures",
+      "photoUrl": "http://example.com/photo13.jpg"
+    },
+    {
+      "uniqueId": "14",
+      "albumId": "107",
+      "albumName": "Food Adventures",
+      "photoUrl": "http://example.com/photo14.jpg"
+    },
+    {
+      "uniqueId": "15",
+      "albumId": "108",
+      "albumName": "Art Collection",
+      "photoUrl": "http://example.com/photo15.jpg"
+    },
+    {
+      "uniqueId": "16",
+      "albumId": "108",
+      "albumName": "Art Collection",
+      "photoUrl": "http://example.com/photo16.jpg"
+    },
+    {
+      "uniqueId": "17",
+      "albumId": "109",
+      "albumName": "Sports Moments",
+      "photoUrl": "http://example.com/photo17.jpg"
+    },
+    {
+      "uniqueId": "18",
+      "albumId": "109",
+      "albumName": "Sports Moments",
+      "photoUrl": "http://example.com/photo18.jpg"
+    },
+    {
+      "uniqueId": "19",
+      "albumId": "110",
+      "albumName": "Concert Memories",
+      "photoUrl": "http://example.com/photo19.jpg"
+    },
+    {
+      "uniqueId": "20",
+      "albumId": "110",
+      "albumName": "Concert Memories",
+      "photoUrl": "http://example.com/photo20.jpg"
+    },
+    {
+      "uniqueId": "21",
+      "albumId": "111",
+      "albumName": "Holiday Pics",
+      "photoUrl": "http://example.com/photo21.jpg"
+    },
+    {
+      "uniqueId": "22",
+      "albumId": "111",
+      "albumName": "Holiday Pics",
+      "photoUrl": "http://example.com/photo22.jpg"
+    },
+    {
+      "uniqueId": "23",
+      "albumId": "112",
+      "albumName": "Family Album",
+      "photoUrl": "http://example.com/photo23.jpg"
+    },
+    {
+      "uniqueId": "24",
+      "albumId": "112",
+      "albumName": "Family Album",
+      "photoUrl": "http://example.com/photo24.jpg"
+    },
+    {
+      "uniqueId": "25",
+      "albumId": "113",
+      "albumName": "Nature Shots",
+      "photoUrl": "http://example.com/photo25.jpg"
+    },
+    {
+      "uniqueId": "26",
+      "albumId": "113",
+      "albumName": "Nature Shots",
+      "photoUrl": "http://example.com/photo26.jpg"
+    },
+    {
+      "uniqueId": "27",
+      "albumId": "114",
+      "albumName": "Cityscapes",
+      "photoUrl": "http://example.com/photo27.jpg"
+    },
+    {
+      "uniqueId": "28",
+      "albumId": "114",
+      "albumName": "Cityscapes",
+      "photoUrl": "http://example.com/photo28.jpg"
+    },
+    {
+      "uniqueId": "29",
+      "albumId": "115",
+      "albumName": "Wildlife",
+      "photoUrl": "http://example.com/photo29.jpg"
+    },
+    {
+      "uniqueId": "30",
+      "albumId": "115",
+      "albumName": "Wildlife",
+      "photoUrl": "http://example.com/photo30.jpg"
+    },
+    {
+      "uniqueId": "31",
+      "albumId": "116",
+      "albumName": "Travel Diaries",
+      "photoUrl": "http://example.com/photo31.jpg"
+    },
+    {
+      "uniqueId": "32",
+      "albumId": "116",
+      "albumName": "Travel Diaries",
+      "photoUrl": "http://example.com/photo32.jpg"
+    },
+    {
+      "uniqueId": "33",
+      "albumId": "117",
+      "albumName": "Food Adventures",
+      "photoUrl": "http://example.com/photo33.jpg"
+    },
+    {
+      "uniqueId": "34",
+      "albumId": "117",
+      "albumName": "Food Adventures",
+      "photoUrl": "http://example.com/photo34.jpg"
+    },
+    {
+      "uniqueId": "35",
+      "albumId": "118",
+      "albumName": "Art Collection",
+      "photoUrl": "http://example.com/photo35.jpg"
+    },
+    {
+      "uniqueId": "36",
+      "albumId": "118",
+      "albumName": "Art Collection",
+      "photoUrl": "http://example.com/photo36.jpg"
+    },
+    {
+      "uniqueId": "37",
+      "albumId": "119",
+      "albumName": "Sports Moments",
+      "photoUrl": "http://example.com/photo37.jpg"
+    },
+    {
+      "uniqueId": "38",
+      "albumId": "119",
+      "albumName": "Sports Moments",
+      "photoUrl": "http://example.com/photo38.jpg"
+    },
+    {
+      "uniqueId": "39",
+      "albumId": "120",
+      "albumName": "Concert Memories",
+      "photoUrl": "http://example.com/photo39.jpg"
+    },
+    {
+      "uniqueId": "40",
+      "albumId": "120",
+      "albumName": "Concert Memories",
+      "photoUrl": "http://example.com/photo40.jpg"
+    },
+    {
+      "uniqueId": "41",
+      "albumId": "121",
+      "albumName": "Holiday Pics",
+      "photoUrl": "http://example.com/photo41.jpg"
+    },
+    {
+      "uniqueId": "42",
+      "albumId": "121",
+      "albumName": "Holiday Pics",
+      "photoUrl": "http://example.com/photo42.jpg"
+    },
+    {
+      "uniqueId": "43",
+      "albumId": "122",
+      "albumName": "Family Album",
+      "photoUrl": "http://example.com/photo43.jpg"
+    },
+    {
+      "uniqueId": "44",
+      "albumId": "122",
+      "albumName": "Family Album",
+      "photoUrl": "http://example.com/photo44.jpg"
+    },
+    {
+      "uniqueId": "45",
+      "albumId": "123",
+      "albumName": "Nature Shots",
+      "photoUrl": "http://example.com/photo45.jpg"
+    },
+    {
+      "uniqueId": "46",
+      "albumId": "123",
+      "albumName": "Nature Shots",
+      "photoUrl": "http://example.com/photo46.jpg"
+    },
+    {
+      "uniqueId": "47",
+      "albumId": "124",
+      "albumName": "",
+      "photoUrl": ""
+    }
+  ]
+}

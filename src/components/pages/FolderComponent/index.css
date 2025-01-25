@@ -1,0 +1,58 @@
+.folderContainer2 {
+  --cardWidth: 150px;
+  --cardHeight: 100px;
+}
+.folder * {
+  cursor: pointer;
+}
+.folder img:hover {
+  transform: matrix(1, -0.3, 0, 1, 1, 1);
+}
+.folderContainer2 .folder {
+  /* background-color: red; */
+  max-width: var(--cardWidth);
+  max-height: 95%;
+}
+
+.folder_ImageContainer img {
+  /* mix-blend-mode: color-burn; */
+  mix-blend-mode: multiply;
+
+  /* max-height: 95%; */
+  /* background-color: blue; */
+}
+
+.folder-Icon {
+  object-fit: cover;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.folderFooter {
+  max-width: var(--cardWidth);
+  margin-top: 2px;
+  /* background-color: yellow; */
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  /* overflow: hidden; */
+}
+.folderName {
+  max-width: 12ch;
+  height: 25px;
+  overflow: hidden;
+  align-self: baseline;
+  text-overflow: ellipsis;
+  text-wrap: nowrap;
+}
+.folderCount {
+  max-width: 7ch;
+  /* background-color: black; */
+  border-radius: 50%;
+  margin: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
