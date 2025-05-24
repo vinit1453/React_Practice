@@ -3,6 +3,9 @@ import Internationalization from "../Internationalization/internationalization";
 import ReducerEx from "./Examples/ReducerEx";
 import Card from "./Sliders/Carousel";
 import First from "./First";
+import OtpField from "./otp/OtpField";
+import OTPInput from "./otp/otpInput";
+import AbortControllerExample from "../concepts/abortController/abortControllerExample";
 export default function Home() {
   return (
     <div className="">
@@ -19,7 +22,17 @@ export default function Home() {
         </div>
         <hr />
         <div className="d-flex  justify-content-center flex-column">
-          <label className="text-info">Next Implementation:</label>
+          <label className="text-info">
+            OTP Insert Field Functionality Implementation:
+          </label>
+          <OtpField />
+          {/* <OTPInput /> */}
+        </div>
+        <hr />
+        <div className="d-flex  justify-content-center flex-column">
+          <label className="text-info">Abort controller Example</label>
+          <AbortControllerExample />
+          {/* <OTPInput /> */}
         </div>
         <hr />
       </div>

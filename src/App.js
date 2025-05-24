@@ -18,7 +18,7 @@ function App() {
     <>
       <div className="container">
         {/* passing properties as attrinute to a component */}
-
+        {/**json-server --watch <FileName.json> */}
         <BrowserRouter>
           <Routes>
             <Route exact path="/" element={<Login />}></Route>

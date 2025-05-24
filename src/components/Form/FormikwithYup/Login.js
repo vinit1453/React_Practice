@@ -45,11 +45,11 @@ export default function Login() {
   const load = async () => {
     await fetch("http://localhost:3000/users")
       .then(function (data) {
-        // console.log(data);
+        //console.log(data);
         return data.json();
       })
-      .then(function (data) {
-        setData(data);
+      .then(function (res) {
+        setData(res);
         //  console.log("Data sett")
       });
   };
