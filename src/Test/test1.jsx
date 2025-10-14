@@ -49,7 +49,7 @@ export default function Test1() {
       alert("Booked");
       clearAllFields();
     } else {
-      alert("Booking canceld");
+      alert("Booking canceled");
     }
   };
 
