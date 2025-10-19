@@ -67,6 +67,11 @@ export default function Navbar() {
                     All Users-{state.loading ? "loading" : state.users.length}
                   </Link>
                 </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/newFeatures">
+                    New Features
+                  </Link>
+                </li>
               </ul>
             </div>
             <div>
