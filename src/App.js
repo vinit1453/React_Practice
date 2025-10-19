@@ -13,12 +13,16 @@ import NotifcationsComponent from "./components/notifications/index";
 import NotifcationsComponent2 from "./components/notifications2/index";
 import ResizeObserverExample from "./concepts/observerApi/resizeObserver";
 import MutationObserverExample from "./concepts/observerApi/mutationObserver";
+import NewFeatures from "./newFeatures";
+
 function App() {
   return (
     <>
       <div className="container">
         {/* passing properties as attrinute to a component */}
-        {/**json-server --watch <FileName.json> */}
+        {/**json-server --watch <FileName.json>
+         * json-server --watch db.json --port 3001
+         */}
         <BrowserRouter>
           <Routes>
             <Route exact path="/" element={<Login />}></Route>
@@ -99,6 +103,15 @@ function App() {
                   {/* <IntersectionObserverExample /> */}
                   {/* <ResizeObserverExample /> */}
                   <MutationObserverExample />
+                </>
+              }
+            ></Route>
+            <Route
+              path="/newFeatures"
+              element={
+                <>
+                  <Navbar />
+                  <NewFeatures />
                 </>
               }
             ></Route>
